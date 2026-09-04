@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Interesse</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>ONG de Adoção</h1>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="sobre.html">Sobre</a>
+    </nav>
+  </header>
+
+  <main class="formulario-container">
+
+    <form action="php/salvar_interesse.php" method="POST" id="formInteresse">
+
+      <h2>Formulário de Interesse</h2>
+
+      <input type="text" name="nome" placeholder="Digite seu nome" required>
+      <input type="email" name="email" placeholder="Digite seu e-mail" required>
+      <input type="tel" name="telefone" placeholder="Digite seu telefone" required>
+      <textarea name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+
+      <button type="submit">
+        Enviar
+      </button>
+
+    </form>
+
+  </main>
+
+  <footer>
+    <p>ONG de Adoção - 2026</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

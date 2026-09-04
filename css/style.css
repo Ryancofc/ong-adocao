@@ -1,0 +1,238 @@
+/* Este é o CSS da Home */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.card a:hover {
+  background-color: #e6732f;
+}
+
+header {
+  background-color: #ff914d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.banner {
+  background-color: #ffd6bf;
+  text-align: center;
+  padding: 50px;
+}
+
+.animais {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 40px;
+  flex: 1;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 15px 0;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.card a {
+  display: inline-block;
+  background-color: #ff914d;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #ff914d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* Este é o CSS do "Ver Detalhes"*/
+
+.detalhes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 40px;
+
+  padding: 50px;
+
+  flex-wrap: wrap;
+
+  flex: 1;
+}
+
+.detalhes-imagem img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.detalhes-info {
+  max-width: 500px;
+}
+
+.detalhes-info h2 {
+  margin-bottom: 20px;
+}
+
+.detalhes-info p {
+  margin-bottom: 15px;
+}
+
+.botao {
+  display: inline-block;
+
+  background-color: #ff914d;
+  color: white;
+
+  padding: 12px 25px;
+
+  border-radius: 5px;
+
+  text-decoration: none;
+}
+
+.botao:hover {
+  background-color: #e6732f;
+}
+
+
+/* Este é o CSS do "Tenho interesse/Formulário" */
+
+.formulario-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 50px;
+}
+
+form {
+  background-color: white;
+  width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form textarea {
+  resize: none;
+  height: 120px;
+}
+
+form button {
+  width: 100%;
+  background-color: #ff914d;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #e6732f;
+}
+
+
+/* Este é o CSS da Mensagem de sucesso do envio do formulário*/
+
+.mensagem-sucesso {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.mensagem-sucesso a {
+  background-color: #ff914d;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+
+/* Este é o CSS da página Sobre*/
+
+.sobre-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 50px;
+}
+
+.sobre-conteudo {
+  background-color: white;
+  max-width: 800px;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.sobre-conteudo h2 {
+  margin-bottom: 20px;
+}
+
+.sobre-conteudo p {
+  margin-bottom: 15px;
+    line-height: 1.6;
+}
