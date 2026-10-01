@@ -72,7 +72,6 @@ http://localhost/phpmyadmin
 
 Crie o banco de dados utilizado pelo projeto e importe/crie as tabelas necessárias.
 
-> A estrutura SQL do banco deve ser adicionada ao repositório caso você queira que outras pessoas consigam reproduzir o projeto com facilidade.
 
 ### 4. Configure a conexão
 
@@ -84,7 +83,6 @@ php/conexao.php
 
 Ajuste os dados da conexão de acordo com o seu ambiente local.
 
-**Não publique senhas ou credenciais reais no GitHub.**
 
 ### 5. Acesse o projeto
 
@@ -100,10 +98,6 @@ Este projeto foi desenvolvido como parte das atividades acadêmicas do curso de 
 
 ## 👨‍💻 Autor
 
-**Ryan Carlos Rodrigues**
+**Ryan Rodrigues**
 
 Projeto desenvolvido para fins acadêmicos e de portfólio.
-
----
-
-⭐ Se este projeto foi útil ou interessante para você, considere deixar uma estrela no repositório!
